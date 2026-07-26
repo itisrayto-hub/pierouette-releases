@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Pierouette</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sun, 26 Jul 2026 19:45:38 +0700</pubDate>
+            <sparkle:version>0.1.0</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.1.0.zip" length="4630268" type="application/octet-stream" sparkle:edSignature="BQNXaFuSu1licuu7ff4FMWHvkMQy3NMW4ZMdMiDU3mIcVngRnX89YOqPDgRporToc3ECJGQX7e89ZMPbhzXGBw=="/>
+        </item>
+    </channel>
+</rss>
