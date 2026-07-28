@@ -3,6 +3,22 @@
     <channel>
         <title>Pierouette</title>
         <item>
+            <title>0.3.2</title>
+            <pubDate>Tue, 28 Jul 2026 13:21:54 +0700</pubDate>
+            <sparkle:version>0.3.2</sparkle:version>
+            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.3.2.zip" length="5136156" type="application/octet-stream" sparkle:edSignature="MIDCf2b8XXVdzqF7W4smFJi1P2+Z+ewZs3Caw+hYQLy+suw+0NtZsOG2DbtnZeDF0pMbAuyL6GK83oGQfmBnAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.3.2-0.3.1.delta" sparkle:deltaFrom="0.3.1" length="322066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZIHDKKXc44l1LQrKri+lponUrgkX9VPRUvZZRrV1yhbTf6H5No2aBsLuMkMvRwKr1wsyCp1rXXXY04hRr9mABQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.3.2-0.3.0.delta" sparkle:deltaFrom="0.3.0" length="469958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TXCZnGRnflj5OoqBUAcyzfQy3aZiclSSZRgtoXCsLGq9c2abthzBMYj6fHCN3vreUB4vvjN800m+wXbmVXn8Ag=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.3.2-0.2.14.delta" sparkle:deltaFrom="0.2.14" length="706970" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3H3+NHznlzuBvrfLy1VFCu5PGGchHW63PC+IU3fIuJFg/v2whgoKGrL+LnPsbPI+yej5xTFBLFMJO11QHuvxDw=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.3.2-0.2.13.delta" sparkle:deltaFrom="0.2.13" length="761086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="X565iHXeOKKFBlFhbh6oUWeSeaMhWfohfx3NgTYGawcr8kqQS/IN/QA9B+G0YqACJs2bYSg+9dJuExNtlztiAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.3.2-0.2.12.delta" sparkle:deltaFrom="0.2.12" length="761690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QrPQm+Hd0SDCUjr0xXEb+jQztGLkP2/R8Njb0cp2cF2JhbwKmtGCvfBY0TXDKnvHfnWEzVzvmVEbjYUriay7Dw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Tue, 28 Jul 2026 13:15:31 +0700</pubDate>
             <sparkle:version>0.3.1</sparkle:version>
@@ -32,22 +48,6 @@
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.3.0-0.2.12.delta" sparkle:deltaFrom="0.2.12" length="728586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3PZ99sogQzOG0TXPUodAnJcvA/eOkaZ7IDv22Sos7qxcQHDIFpNZMK0oUJG9RBTFmbdqGGpbRvCd8X8VAfGpDg=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.3.0-0.2.11.delta" sparkle:deltaFrom="0.2.11" length="724154" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lgB6y5Htd+FfVDDaT0Ne53mdMZOXU/eeHycPNtf3UJthRD4YPEOA+ScH5TZsyeSZoVOlLXewYqxYP7PIbNIjDg=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.3.0-0.2.10.delta" sparkle:deltaFrom="0.2.10" length="1535666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1je88X/13eYmSnOKGtlJ3Zm8aGzVobfyfNEOjjaRoqvgslXjoTS0Tfu6rd33gSJPGxeS+fMfKk64/IhGVP89Cw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.14</title>
-            <pubDate>Tue, 28 Jul 2026 10:42:14 +0700</pubDate>
-            <sparkle:version>0.2.14</sparkle:version>
-            <sparkle:shortVersionString>0.2.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.2.14.zip" length="5058330" type="application/octet-stream" sparkle:edSignature="Oj/CJJCnias41C8WcHcEmbjU2ftbvnCqhTJKz08kx1dPLkYwbePpKGOCRq49bSJ6mpd6ldlIei0ClYTZGyPbBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.2.14-0.2.13.delta" sparkle:deltaFrom="0.2.13" length="455206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bSAiMDnH53S3QeaEgTSCnznyeB0tCCYMaCVmKmUvQS7+vjoVeVNjaVaDinZDdjLCcfQlxAXT03YhDT4caW6bCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.2.14-0.2.12.delta" sparkle:deltaFrom="0.2.12" length="456946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7PIMk5olG7E1GdAqRuWmG9RHGgObX9GBi5NeqqUFWQdbO508CuVO/tqFSv5e1mseltKZYw1yPoyNQZuA5EL4Cw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.2.14-0.2.11.delta" sparkle:deltaFrom="0.2.11" length="458370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fr5EqyTnK3/OfdP9Xzwo2+C+P/EnDl5EzBS1KwGpiqmj154cOhP4q2QMSv2CEqdqozJF0oh1k1bK2277Vn9dDg=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.2.14-0.2.10.delta" sparkle:deltaFrom="0.2.10" length="1420122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Vsof+jufQcBvGdN3V0Vi6PzrhsysfUYT36tPILK+WmDhWid3qM4yrx9/7MTQFwHZbsXcYCD5UNtOJDAKpA7pCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.2.14-0.2.9.delta" sparkle:deltaFrom="0.2.9" length="1440194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8o70YoZe3EJBxAWnEVtSCD6c+eEDzxkyciz8F/sWSegCJNcR2e0JgRwtmbtkqdapFFFD71LPRtuCpa1Lo/33Bg=="/>
             </sparkle:deltas>
         </item>
     </channel>
