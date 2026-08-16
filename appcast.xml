@@ -3,6 +3,27 @@
     <channel>
         <title>Pierouette</title>
         <item>
+            <title>0.12.1</title>
+            <pubDate>Sun, 16 Aug 2026 20:22:47 +0700</pubDate>
+            <sparkle:version>0.12.1</sparkle:version>
+            <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.12.1</h2>
+<ul>
+<li>The Compass now opens the way it was designed: the app&#x27;s context menu is up, the app launcher left, window actions right, and the universal menu down. If you had never rearranged it, yours follows; a hand-arranged Compass keeps your order</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.12.1.zip" length="6479258" type="application/octet-stream" sparkle:edSignature="xcmW2Wh/rNGpahkJgkx4DpPBCwQytMqDLuadyz++UoaPvKRCt/KMWZIrg/6DZYBFTSgcQIuaInKiRsuwmet5Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.12.0.delta" sparkle:deltaFrom="0.12.0" length="240250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9mnhdui6CdeZvK462EtvnxEDypZnjzLQ3oaxSkN2ZARFodGDMgjynUku9wn2c2VEUhzfcTWa53QNuNYO2e1oBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.11.0.delta" sparkle:deltaFrom="0.11.0" length="1480158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qcxtcNfJFfWppFB+6BH36E+TMzpKwebib2gromNLoWhsjEoQwvRMPmuNPNSU3iWv2/VuOJltXs9M72ewEKMKAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.10.1.delta" sparkle:deltaFrom="0.10.1" length="1807390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uvy/uuuyZZdcR21ZsykJJEwSExeZd4pa2vFq7tH5uqm+vFaLflWzCXDJc4xbnsvYpsai761DsQ6NkCZ8RQxzBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.10.0.delta" sparkle:deltaFrom="0.10.0" length="1813118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hbhp/HEhsqokt69jUqVVN0nh7zBM/VA7t7o+oa2Aanri7YBff+pxb2TJMyKbcEv1DU8m84lmDrq/g0ceHcWVBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.9.0.delta" sparkle:deltaFrom="0.9.0" length="1929490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RmnGf02i/nouIdWnoJeUc8qHE+iT7JiAY2Mi4ABLJjR3FcblvBDZ5IyIA9CsaYylCxstJPI6OtGZGf0gtP+sDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.12.0</title>
             <pubDate>Sun, 16 Aug 2026 20:16:34 +0700</pubDate>
             <sparkle:version>0.12.0</sparkle:version>
@@ -67,29 +88,6 @@
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.11.0-0.9.0.delta" sparkle:deltaFrom="0.9.0" length="1424226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BEdvIlhYM+tANfKmkUOj3i4xG9i+xV0Dbk8c4u/uwhsT0fewv/II2Siy/4OG4k4vgziTJKc05RZtvePe2BPoBQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.11.0-0.8.11.delta" sparkle:deltaFrom="0.8.11" length="1520726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kzfHTww02i5qFqTLxRcekc8YVBZcW+gUAP2hrHhYyMko7hJ2EKJkOtgIqLRNzuTWosqIuaJZR/fTEnVfXhL1Bg=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.11.0-0.8.10.delta" sparkle:deltaFrom="0.8.10" length="1632454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6RtIuzDQIisJalAO4XL128klWou3VnU38a1T7rGI9gRfcn17EfRZBcl0nfboB4OXpKCo5zJFxu4wT/yCaHdRCA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.10.1</title>
-            <pubDate>Tue, 11 Aug 2026 12:01:45 +0700</pubDate>
-            <sparkle:version>0.10.1</sparkle:version>
-            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.10.1</h2>
-<ul>
-<li>A folder no longer opens and closes rapidly when your hand rests where it opened — pulling back toward the center still closes it, but only an actual pull does; a still hand never closes a folder</li>
-<li>The pill you grab in a folder&#x27;s arrange mode now wiggles as smoothly as its neighbors</li>
-<li>A grabbed alternative (the ⌥ face) keeps wiggling in your hand instead of freezing — on both the menu and inside folders</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.10.1.zip" length="6216656" type="application/octet-stream" sparkle:edSignature="Yk4IkAsRHChC6iRrC8UI8aHFpo2IaEVm3dhLO5BmcryINdRwYrsoprKTEWZWoYohkkEGmW656lyT0HzcLXlDBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.10.1-0.10.0.delta" sparkle:deltaFrom="0.10.0" length="412466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kB9IPS/IsSqmoUM8DKpgVbVDWyDtfbIUTFrBlczeTqN4yrVPUEyWeydd3Izlw8Tx8DpG7NWGvCOvqq+mEJCVAg=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.10.1-0.9.0.delta" sparkle:deltaFrom="0.9.0" length="922522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kSkjEZp5SCRWLZRmfzQGu5ZjSC2976cAT6ub8DWX/V6iEjh2elg4tm3wqdG8zNOxXONQtEQ0XPv2GjRahQiRBQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.10.1-0.8.11.delta" sparkle:deltaFrom="0.8.11" length="1081406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VE4tNpzS+stbkxvl9LFAcuC072vcR+JTZIy3AzF46NZzlsqMGyOqkKhP+DiTbIBY9IhCbzhwu5aFFBHuhwz/Aw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.10.1-0.8.10.delta" sparkle:deltaFrom="0.8.10" length="1242638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4UaKL+N50QllEVTt9sVPJNpE+x59kB/i6eaAk1HxJxYrtRG7q+E9PDlFu2pMpYRmHjzQU3wzs8PS2DQ7G57TBQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.10.1-0.8.9.delta" sparkle:deltaFrom="0.8.9" length="1239634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W77q3iWjS8UCjJLLYarKUrxh47xgo1tHOKmjfsg42MU+RnNJOGTDkznc0I/uuwtueOpnC52WWPqCdqn5xSp5BA=="/>
             </sparkle:deltas>
         </item>
     </channel>
