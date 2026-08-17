@@ -3,6 +3,34 @@
     <channel>
         <title>Pierouette</title>
         <item>
+            <title>0.12.4</title>
+            <pubDate>Mon, 17 Aug 2026 09:47:42 +0700</pubDate>
+            <sparkle:version>0.12.4</sparkle:version>
+            <sparkle:shortVersionString>0.12.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.12.4</h2>
+<ul>
+<li>Pill library: the search list shows one card per pill — the pill&#x27;s face, its name, what it does (e.g. &quot;Shortcut · ⌘K&quot;, &quot;App · Notion&quot;, &quot;Link · notion.so&quot;), and where it lives (&quot;Play · slot 3&quot;, &quot;DaVinci Resolve · Context menu · slot 6&quot;, &quot;Not on any menu&quot;); each pill appears once (no duplicates across History / Saved / Menus)</li>
+<li>Pill library: pull down on the categories to reveal the search list — a short pull springs back, a deliberate pull commits; Cancel fades back to the categories; the library is a full-height column at the screen edge with Apple-glass category cards</li>
+<li>Arrange mode: switch between your menus without leaving arrange — four menu buttons on the bar (left of undo) wearing the Compass pills&#x27; faces; the hub no longer shows an ✕ in arrange mode</li>
+<li>New pill type: System → **Arrange Mode** — a pill that puts the open menu into arrange mode (obeys the click-only / hard-press safeguards like any pill)</li>
+<li>Settings: the menu-bar &quot;Settings…&quot; now opens a compact side panel with the everyday settings (Menu · Blur · Sounds · General); &quot;All Settings…&quot; opens the full window</li>
+<li>Compass: a lane that isn&#x27;t available right now dims only its glyph — the pill body stays; a switch that is refused in the opening beat does nothing instead of opening the launcher as a folder</li>
+<li>Fixed: the goo strand could stay attached after resting on a pill and moving back to the centre</li>
+<li>Fixed: the pill library vanished behind the blur when a screenshot shortcut (e.g. Shottr&#x27;s ⇧⌘2) was pressed during arrange</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.12.4.zip" length="6621027" type="application/octet-stream" sparkle:edSignature="Xp05k6R1HbI3LUenwt2nGDPE4OAzKREXnXL9Fy+Txe/WlKBqPgxwrpFoWFCytwDW7bfQZZEcudzn0G0mDdn/DA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.4-0.12.3.delta" sparkle:deltaFrom="0.12.3" length="975262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VFpuSYYFEhOAMZ4cE+XTMXpbMijHmsQqnp0uJxqHZnAclEy3OtnAGCA6uZIOLbzgA7geKb1P6UIUOPDk5tRfAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.4-0.12.2.delta" sparkle:deltaFrom="0.12.2" length="998570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Uwkd4tnLKAm+Bimmt9Ig67EJXvr9aw5vkhfIOWev+QqG+9RKCq9vOPwIPoy6WQnAYVfV3ffROVf4JFmsIq+0Cg=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.4-0.12.1.delta" sparkle:deltaFrom="0.12.1" length="1142778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IMP6UmSrX+/RFUMwiWBUXigdqcSwOGUmrvpYPE1XgjlasPoZYCF+JMoW/uURTxqzIuoZ6Z21V2QKFf9ltTgvBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.4-0.12.0.delta" sparkle:deltaFrom="0.12.0" length="1146626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bt7I6RBW4VLTuVWHy4JMWfiSYOp+GOzwjKafwMLEpCFyi5EVyGC495ntVCUTdbcT7V2foZw6T0L401aiEwYoBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.4-0.11.0.delta" sparkle:deltaFrom="0.11.0" length="1686770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DCtjUqG1gDp+FdKU4B+2R38c7Dto1faUoqMRJElQojSYOjBbPku9c1s+wpw9Jy0bE7q2Uz/i0OaRwQ102GexDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.12.3</title>
             <pubDate>Sun, 16 Aug 2026 23:40:24 +0700</pubDate>
             <sparkle:version>0.12.3</sparkle:version>
@@ -42,27 +70,6 @@
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.2-0.11.0.delta" sparkle:deltaFrom="0.11.0" length="1535338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7F0pvJ77fn2GxJ7b0tQrdpUCvRfO1qJ0fvnhh8SybDwFBDS0+HpEaZjJ75hhtLjd0D3+7JIiq+eI++uB/0GMAg=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.2-0.10.1.delta" sparkle:deltaFrom="0.10.1" length="1857054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LNgjVDBTAkBt/chhreD88GbAdSQ9KPYC2lLcN6/OMjSXFXHjmAnr2PaNlirruCJQ+X7tml3uS6dynD+4Wdn4Dg=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.2-0.10.0.delta" sparkle:deltaFrom="0.10.0" length="1866074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z61p3ebJPhN572oqtz+HNy14rqycD2LJORqUv1MqSFZ1fcsbAOjelkPsCtUHlrBsEwqZ8srFuM6furiUzi8NDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.12.1</title>
-            <pubDate>Sun, 16 Aug 2026 20:22:47 +0700</pubDate>
-            <sparkle:version>0.12.1</sparkle:version>
-            <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.12.1</h2>
-<ul>
-<li>The Compass now opens the way it was designed: the app&#x27;s context menu is up, the app launcher left, window actions right, and the universal menu down. If you had never rearranged it, yours follows; a hand-arranged Compass keeps your order</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.12.1.zip" length="6479258" type="application/octet-stream" sparkle:edSignature="xcmW2Wh/rNGpahkJgkx4DpPBCwQytMqDLuadyz++UoaPvKRCt/KMWZIrg/6DZYBFTSgcQIuaInKiRsuwmet5Cg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.12.0.delta" sparkle:deltaFrom="0.12.0" length="240250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9mnhdui6CdeZvK462EtvnxEDypZnjzLQ3oaxSkN2ZARFodGDMgjynUku9wn2c2VEUhzfcTWa53QNuNYO2e1oBA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.11.0.delta" sparkle:deltaFrom="0.11.0" length="1480158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qcxtcNfJFfWppFB+6BH36E+TMzpKwebib2gromNLoWhsjEoQwvRMPmuNPNSU3iWv2/VuOJltXs9M72ewEKMKAA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.10.1.delta" sparkle:deltaFrom="0.10.1" length="1807390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uvy/uuuyZZdcR21ZsykJJEwSExeZd4pa2vFq7tH5uqm+vFaLflWzCXDJc4xbnsvYpsai761DsQ6NkCZ8RQxzBQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.10.0.delta" sparkle:deltaFrom="0.10.0" length="1813118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hbhp/HEhsqokt69jUqVVN0nh7zBM/VA7t7o+oa2Aanri7YBff+pxb2TJMyKbcEv1DU8m84lmDrq/g0ceHcWVBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.1-0.9.0.delta" sparkle:deltaFrom="0.9.0" length="1929490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RmnGf02i/nouIdWnoJeUc8qHE+iT7JiAY2Mi4ABLJjR3FcblvBDZ5IyIA9CsaYylCxstJPI6OtGZGf0gtP+sDA=="/>
             </sparkle:deltas>
         </item>
     </channel>
