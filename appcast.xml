@@ -3,6 +3,35 @@
     <channel>
         <title>Pierouette</title>
         <item>
+            <title>0.13.0</title>
+            <pubDate>Tue, 25 Aug 2026 13:24:32 +0700</pubDate>
+            <sparkle:version>0.13.0</sparkle:version>
+            <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.13.0</h2>
+<ul>
+<li>**New pill type: Dial** — fire it and a small knob appears at your pointer; circle around it to turn the value notch by notch. Presets: Volume, Brightness, Keyboard Light, video Seek (←/→), arrow pairs — or record any two keys for the directions. Volume/brightness/keyboard-light dials show the live level as a number while turning; arrow dials show the arrow being pressed. Hold ⌥ while circling for fine steps. Each dial pill has its own sensitivity slider in its editor. The knob grows while you turn and shrinks when you stop; it starts with a little resistance from standstill (so drifting toward the centre never changes the value), ticks the trackpad on every notch, and closes on any click — which is swallowed, so nothing underneath gets clicked</li>
+<li>**New menu: the Control Deck** — a ring of eight system dials (Volume · Brightness · Keyboard Light · Seek · Track · Zoom · Tabs · Spaces). Open it from the Compass&#x27;s lower diagonal seat (its pill now shows a dial and says Controls), or from the new dial button in the arrange bar. Its pills are yours to edit and arrange like any menu</li>
+<li>Compass: the two invisible diagonal seats (Settings, Controls) are marked with small dots that appear and leave with the menu; the Arrange seat is retired — arrange mode is the right-click on any centre hub</li>
+<li>Arrow-key dials fire into the app the menu was opened over, not whatever app was focused</li>
+<li>Settings side panel: opens over the same blur layer as the menu, and the blur sliders change the frost live while you drag — the Blur slider actually works now; sliders got a small dot that snaps back to the default when you drag near it; **Sound volume** moved from the menu-bar icon into the panel</li>
+<li>Deleting a pill leaves its spot empty — the ring no longer slides everything over</li>
+<li>Wide glyphs (tabs, spaces, play/pause and friends) are no longer shaved at the corners</li>
+<li>Hotkey pills no longer go dead until you click into another app and back — the target window is given the keyboard before every send</li>
+<li>The hub keeps leaning at a folder while it opens instead of snapping upright and back</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.13.0.zip" length="7238634" type="application/octet-stream" sparkle:edSignature="h1CkPje0n1+PyyX6+0G6N1TKjRcE57UfqIF1ogK2ZZ5Xc3tWRwys5Zq+qht57SWLKeFcXvNMHTaw5CjglqFBDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.8.delta" sparkle:deltaFrom="0.12.8" length="1168130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+M6gb8VmlJeeHtAdqOhP+qWLB2g1FlIXT13GWcYE8n49eKEnRiDw8xhP9KaLNngvL5hTWGUMzl3SX+d6CUDnAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.7.delta" sparkle:deltaFrom="0.12.7" length="1283910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0YTtYeMAbdLzF4CJKPIO4sCuA+8bqSj9T3UA6XpONSixLJLxVkzgR5MSz+/PKo8B4NSPNZPbIguPcZGE86JhAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.6.delta" sparkle:deltaFrom="0.12.6" length="1298746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fwcPX7uAnrK2gQ/v24NgpKs89YaMSLN/vvIaK2ZV9j1G9ul30PnBEWvfEoriJ6Zv6h+ovvZk1749C0CNy5O2Bg=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.5.delta" sparkle:deltaFrom="0.12.5" length="1543526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FPC+weMZNztUOiyJan+9Qt7BNJSkRXc8YasbXmen/aIHHgqR/Vfihd+mrWyzRtCftpckbRffb+byecgMtwMxCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.4.delta" sparkle:deltaFrom="0.12.4" length="2092658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="R9I6M3P7uizQQ/ma0VY186O6iLEDmR/DyPycWZEvVAcooFBYSpOZG+QzYsRo0Dx1SoU/5/GKo52K8iyLPvE3Dg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.12.8</title>
             <pubDate>Mon, 24 Aug 2026 06:41:57 +0700</pubDate>
             <sparkle:version>0.12.8</sparkle:version>
@@ -53,40 +82,6 @@
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.7-0.12.4.delta" sparkle:deltaFrom="0.12.4" length="1848322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RQEovAFHaRZM/g/4Z+pn5aMwNIkP2ph/e7C4Rwd0HpIG0V+aJxT1BrRBWjgntfC5EHFl3eEquNIgrM6i2MJ7BA=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.7-0.12.3.delta" sparkle:deltaFrom="0.12.3" length="1923318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1cnKkhyqPDZz4+f4+4wAwdHTeTD34T/TQEe8dpAmRZPkab2NhmMv3z8DsP4RINJV5A0xoRIoX+CRtZ0DiIMsDw=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.7-0.12.2.delta" sparkle:deltaFrom="0.12.2" length="1931474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/EdL4uHB0bC6tJYmGSERd/giP4hsgOCeXXSY/sxx/Yvf9BVhPlM3y2VH12fcZdFp3xpAT8igvHy6S29S+DYtCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.12.6</title>
-            <pubDate>Sun, 23 Aug 2026 21:03:27 +0700</pubDate>
-            <sparkle:version>0.12.6</sparkle:version>
-            <sparkle:shortVersionString>0.12.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.12.6</h2>
-<ul>
-<li>Compass: two new circles flank the universal menu — **Arrange** (between the app launcher and the universal menu) and **Settings** (between the universal menu and the window menu). They stay invisible until you lean toward them and need a little more travel than a menu swap: Arrange opens the Compass itself in arrange mode, Settings closes the menu and opens the settings side panel (or closes it if it is already open)</li>
-<li>Compass arrange mode: reorder the four menus on the top/right/bottom/left seats and move Arrange/Settings among the diagonal seats; the bar has undo/redo, the four menu buttons and a separate Compass button; clicking a menu button opens that menu&#x27;s arrange mode with the Pill Library</li>
-<li>Right-click any centre hub — main menu, Compass or an open folder — to enter arrange mode directly (no gear step)</li>
-<li>Compass: the context and window menus still answer when there is no window under the cursor — the pill swaps in, springs back, and you get the cancel sound plus the &quot;No window under the cursor&quot; message</li>
-<li>Compass aiming is calmer: nothing reacts until your hand is past the inner half of the hub, small wobbles no longer re-aim at a neighbour, aiming no longer locks into the first direction you moved, and the hub follows your hand with weight instead of one-to-one</li>
-<li>Settings side panel: opens on the display you are working on, opens without a hitch from the Compass, hides when you enter arrange mode, and a shortcut recording is cancelled the moment the panel closes</li>
-<li>The first open after launching the app (or after an update) is already warm — no more cold stutter on the first menu</li>
-<li>Four-finger tap: a fresh hand landing on the pad always counts, even right after another gesture; a rare crash in the trackpad monitor is fixed</li>
-<li>Pill Library: **Layouts** — save named snapshots of a menu as memory cards and restore them; the library orders itself around the menu you are arranging and its app; the badge on a card now means &quot;on THIS menu&quot; (check) or &quot;lives on another menu&quot; (arrow, named on hover) and tapping the check flashes the pill&#x27;s slot; your own fired shortcuts no longer count toward Most Used</li>
-<li>The fixed 8-slot layout is now on by default for every app&#x27;s context menu</li>
-<li>A tinted open folder tilts as one object toward your pointer</li>
-<li>The goo strand meets every pill the same way on every ring — straight along the centre line, a slim neck into the pill, the same width at the junction everywhere — and hovering a pill swells it without distorting its neighbours</li>
-<li>Confirm pairs: only the check survives the commit (the ✕ leaves with it), inside folders the same as on the main ring; the folder hub ticks like the main hub</li>
-<li>Arrange: the minus shows only on the pill under your pointer, the open folder no longer wiggles, and the strand from the hub to an open folder stays while you arrange; the slot-count badge on folder pills is gone</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.12.6.zip" length="7101192" type="application/octet-stream" sparkle:edSignature="q5D7SwNmi5UUgqNPcQ0U4LI12Vx4oW6Li/cLoRdSoRr6nLFSCu1XaPHRR8pL3zLlx8JzNZL+9QK3frPmmRrZBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.6-0.12.5.delta" sparkle:deltaFrom="0.12.5" length="1090306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Li8qkBQ8zMRpYjIFG99q/d4VUlzycZZF8xR8snuXAtxFdsl2QO5REXic4oYMGUiGK8bswJ2Mh5x2FGdvuJMjBA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.6-0.12.4.delta" sparkle:deltaFrom="0.12.4" length="1829010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Cfx3eB+xJCEPHHos1W4S3Ohp4gtSBZaA0awr0etvO4EPx9AkPkf71tGMSiACRsR6967IarPn5VSuBepaFdoDAw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.6-0.12.3.delta" sparkle:deltaFrom="0.12.3" length="1917490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5UWHlQYiPRqcY30PqxriUu0SvRsV9hUKiD82/hc35M/5pu8Rna494s+YBXtBEWqsPCft5lfZbBGL50CRjWFyCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.6-0.12.2.delta" sparkle:deltaFrom="0.12.2" length="1910850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OrJqJqUGxYQBxZF8o9bs/pKk4BFSDGRtNXPcUOYlHvhdswnJRt3edhhFXX8OX6hs3gZlts+e9praUee5EPzUCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.6-0.12.1.delta" sparkle:deltaFrom="0.12.1" length="2003254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="apugU2TDiTnrAKsc2KfB7ccvFpcNqtv0RxAfucDAtYBaugvSz6ppAIjv5N6sJjmlyTrFxdkd+ePPtWa7hBB9Bg=="/>
             </sparkle:deltas>
         </item>
     </channel>
