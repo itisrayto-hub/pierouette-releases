@@ -3,6 +3,45 @@
     <channel>
         <title>Pierouette</title>
         <item>
+            <title>0.14.0</title>
+            <pubDate>Tue, 08 Sep 2026 00:10:14 +0700</pubDate>
+            <sparkle:version>0.14.0</sparkle:version>
+            <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.14.0</h2>
+<ul>
+<li>**New starter menu** — a fresh install&#x27;s Universal menu now shows what a pill can be: a Screenshot folder (Area · Full Screen · Recording, ⌥ for the clipboard variants), Play / Pause (⌥ Next Track), a Volume dial (⌥ Mute), Dark Mode (⌥ a Brightness dial), Lock Screen (⌥ Focus), an Apps folder (Safari · Mail · Notes · Music · Finder, ⌥ Spotlight), a Clipboard folder (Copy · Cut · Paste · Paste Plain Text · a saved-text snippet), and a Websites folder with favicons (⌥ Mission Control) that ends in an Empty Trash pill asking to confirm first. Existing installs keep their own pills</li>
+<li>**Any menu on any bare modifier key** — Settings › Shortcuts has a row per key (⌃ Control · ⌥ Option · ⌘ Command · fn): a quick tap of the key alone opens that menu, parked under the pointer. Pressing the key as part of a shortcut (⌘Z, ⌥-click) does nothing, so nothing flashes</li>
+<li>**Hold a modifier for its chooser** — hold any of the four keys alone for one second and a strip of the five menus appears in the middle of the screen; click one to make it that key&#x27;s menu. The strip stays until you click outside it</li>
+<li>**Hyper key** — one card in Settings turns Caps Lock (or any key you pick) into ⌃⌥⇧⌘; choose what a quick press does (nothing, Escape, or Caps Lock), whether Shift is included, and whether Hyper works with clicks, drags and scrolling</li>
+<li>**Stroke fire** — a third choice under &quot;Fire on&quot;: a decisive stroke in a pill&#x27;s direction fires it, at any hand speed; a stroke onto a folder opens it</li>
+<li>**Four-finger tap by position** (Trackpad card, off by default) — where you tap on the trackpad opens Context, Universal, Apps or Window directly</li>
+<li>**Custom pointer, BETA card** — the white dot now turns into the matching shape wherever macOS would change the pointer (text beam, resize arrows, hand), shrinks on every click and springs back, and hides while you type until the mouse moves — the same rule as the system pointer</li>
+<li>**Community presets** — export your menus as a preset, import a friend&#x27;s, or browse the catalogue and install one from the pill library</li>
+<li>**Settings in one place** — everything you can set lives in the side panel now (the old Actions tab is gone); the arrange bar gains the Fixed 8-slot switch, the Context app picker, and a per-menu &quot;Return pointer&quot; switch</li>
+<li>**Onboarding** — a first-launch intro and a short setup window that walks through the shortcuts and demos arranging pills</li>
+<li>**Reduce Motion and Reduce Transparency** from System Settings are honoured</li>
+<li>**Context or Window with nothing under the pointer** — the menu opens with only its centre hub and a short note under it, then leaves by itself; clicking the hub closes it. Over the bare desktop, the Context menu is Finder&#x27;s</li>
+<li>**Arrange mode** — an alternative (⌥) may sit on an empty seat; dragging never collapses a folder under your hand; a plus at either end of a folder&#x27;s fan adds an empty slice; seats are numbered in a folder; leaving arrange closes the gaps with an animation; a move the ring cannot make shows why instead of snapping back</li>
+<li>**Pill editor** — two panes (identity left, actions right) and a Notes field per pill</li>
+<li>**Pill library** — the tray is a full-width strip at the top; the Menus box groups pills by menu</li>
+<li>**Dial** — press its face and drag to move it anywhere; it bounces on arrival and on every notch</li>
+<li>**iPhone Remote** — its own card in Settings with the pairing code visible; the phone can turn dials and use the Compass</li>
+<li>**Haptics by meaning** — hover, fire, navigate, snap and cancel each have their own pulse</li>
+<li>Faster: icons are cached as bitmaps (folder opens no longer stall on app icons), the first menu open after launch is no longer cold, app icons are rendered sharp at every size, hover cues never wait on the trail</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.14.0.zip" length="7000198" type="application/octet-stream" sparkle:edSignature="7HiJk+ASuM09NvgM2ajltUB4gTXgwQlTV/CA5r3ouMBswW6810Wk9fLfbj/qtUN93SOf+mMS89eU7efe59UBDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.14.0-0.13.0.delta" sparkle:deltaFrom="0.13.0" length="1953154" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rTLktseSj6aSGcVw7s0WPLnWLlZfICeK2UU4SaA5+nLCOBrTvcBLkujHPI6+YsG/5l4wRUmT6s2c3yNmPTx1Bw=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.14.0-0.12.8.delta" sparkle:deltaFrom="0.12.8" length="2100258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W2P0SXqQYdomoUfopFnmTKl6g/6QHYtksNJyJDdlUw1On1YZLIqLrwhuwGhe2Ej3FkE1ai9XOXS1r3OgcaTYDQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.14.0-0.12.7.delta" sparkle:deltaFrom="0.12.7" length="2141266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OILReydV6F77DGgJbG9fi907Q/csKlE0GmWtUm9oNHIY1Lh5aBIfSeWJiZiwq5gyf8ynQ6AL78LkqVgCerKABw=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.14.0-0.12.6.delta" sparkle:deltaFrom="0.12.6" length="2150642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2NNE/kxsHCtVdWVYonOojuIm0rFQvBjX8SQVxn1jvbUsfZgcVXyjrjYxCgB4A+R48a26s11SXpXd92PuHHzoCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.14.0-0.12.5.delta" sparkle:deltaFrom="0.12.5" length="2296050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d5MRVMZDc9+ilpK0OHK1egcjy9waF3xc7ykpbxqJhPO+ShcT25uVYOzWbheffFhXDXTkTmpx8yrTTsl6NR0YDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.13.0</title>
             <pubDate>Tue, 25 Aug 2026 13:24:32 +0700</pubDate>
             <sparkle:version>0.13.0</sparkle:version>
@@ -57,31 +96,6 @@
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.8-0.12.5.delta" sparkle:deltaFrom="0.12.5" length="1254562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GIP8TTf8JyJya/vBpF4G96Sz9f2yFAEOjKGottLc1Pb9L24jItEPwPdqvIS1RBNUmpApczo1/PF0arq4OUz8CQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.8-0.12.4.delta" sparkle:deltaFrom="0.12.4" length="1936578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="klvlBdDoUZLpj6AwwBLfqrg98S6+x12sFH4ogLqqWWFu3EENh3mQqkObArcv2p+a8Q6MMvx1/VCXGFR31wzaAw=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.8-0.12.3.delta" sparkle:deltaFrom="0.12.3" length="2001714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WQYtuJ+N2mEhXemzFpX3WneIy93PlXDdckqRjJkeYFmZfwYEdG8vt3fSLuD5+DR4ClekQoWsnpIs3TP3bu5TBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.12.7</title>
-            <pubDate>Sun, 23 Aug 2026 23:06:53 +0700</pubDate>
-            <sparkle:version>0.12.7</sparkle:version>
-            <sparkle:shortVersionString>0.12.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.12.7</h2>
-<ul>
-<li>Swipe open a folder and the pointer glides to the folder&#x27;s centre — the same flight as after a Compass swap (clicking a folder open stays put)</li>
-<li>The first menu open after launching or updating the app is warm — no cold stutter any more</li>
-<li>Arrange mode: dropping a linked couple by its ⌥ lands it where you release it (it used to jump back to its old seat and slide over); dragging an ⌥ in a folder makes one sound, not two; no empty dashed box appears at the seat you are dragging a couple away from</li>
-<li>Over the bare desktop, the hub shows Finder, and the arrange bar&#x27;s context button arranges Finder&#x27;s context menu (it showed the front app&#x27;s pills under a Finder icon); Context/Window stay unavailable over the desktop as before</li>
-<li>Compass aiming: nothing reacts until your hand is past the inner half of the hub, and tiny wobbles no longer re-aim at a neighbour</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.12.7.zip" length="7107103" type="application/octet-stream" sparkle:edSignature="11jgMzCW5snfNGGrx18HasoyIL/EGU435IHBVJO/072GM3gDvTdCboYMMMSRZbmkt5SGTO9PYP34z/BDzC7qBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.7-0.12.6.delta" sparkle:deltaFrom="0.12.6" length="544918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AABPKyMB+7KMKeUSJH3o1RBA0YPKnqEISvgDnEPz7NeS0seRdfgkUdC2tTQ7C5jHrS+ZU/UMmyKe83mPEmgiAw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.7-0.12.5.delta" sparkle:deltaFrom="0.12.5" length="1116206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XFPyQVysCo1FljaPtmtczNOroD+g/8NQD8W4uqMkULrQDk6Nv7FTEZlO7nEVu0ypAI87vBGYGZXS8r631Qc5DA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.7-0.12.4.delta" sparkle:deltaFrom="0.12.4" length="1848322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RQEovAFHaRZM/g/4Z+pn5aMwNIkP2ph/e7C4Rwd0HpIG0V+aJxT1BrRBWjgntfC5EHFl3eEquNIgrM6i2MJ7BA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.7-0.12.3.delta" sparkle:deltaFrom="0.12.3" length="1923318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1cnKkhyqPDZz4+f4+4wAwdHTeTD34T/TQEe8dpAmRZPkab2NhmMv3z8DsP4RINJV5A0xoRIoX+CRtZ0DiIMsDw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.12.7-0.12.2.delta" sparkle:deltaFrom="0.12.2" length="1931474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/EdL4uHB0bC6tJYmGSERd/giP4hsgOCeXXSY/sxx/Yvf9BVhPlM3y2VH12fcZdFp3xpAT8igvHy6S29S+DYtCg=="/>
             </sparkle:deltas>
         </item>
     </channel>
