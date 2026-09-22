@@ -3,6 +3,37 @@
     <channel>
         <title>Pierouette</title>
         <item>
+            <title>0.16.0</title>
+            <pubDate>Tue, 22 Sep 2026 12:20:28 +0700</pubDate>
+            <sparkle:version>0.16.0</sparkle:version>
+            <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.16.0</h2>
+<ul>
+<li>**The app is Rayto** — new name, new icon (a silver ribbon: an 8 on its way to ∞), a new intro. Your menus, shortcuts and settings carry over unchanged</li>
+<li>**Opens like any Mac app** — Rayto is now signed and notarized by Apple: no &quot;damaged&quot; warning, no right-click → Open, no trip to Privacy &amp; Security to get it running</li>
+<li>**Layers** — every menu can hold several layers of pills, one showing at a time. On an open menu press a layer&#x27;s key (1, 2, 3…) to switch — deeper layers come up from far away, going back is the same film in reverse. Make layers in Arrange: the row above the bar (&quot;1 2 3 +&quot;) — right-click a number to name it, pick its key, make it the layer the menu opens on, or delete it</li>
+<li>**Setup, rebuilt** — one permission, then two short lessons (tap the key · hold it and swipe) on a practice menu that fires nothing real; trying a different key on the setup page is undone unless you press Continue</li>
+<li>**File pills** — drop a file anywhere on the editor&#x27;s right side to use it; Change… opens in the folder the current file lives in</li>
+<li>**The pill editor never grows** — the form scrolls, Add and Cancel stay where they are; the Add Pill search takes the arrow keys</li>
+<li>**Corner dial** — the app under the dial no longer reacts to your pointer while you turn it</li>
+<li>**Keyboard locked?** — when a password prompt has locked the keyboard (macOS Secure Input), the menu&#x27;s caption says so instead of ignoring your keys</li>
+<li>**No Screen Recording request** — the app never asks for Screen Recording unless you turn on the iPhone display</li>
+<li>**Sounds** — the default hover and navigation clicks now ship with the app (free, CC0 sounds)</li>
+<li>**Feedback goes to hello@rayto.app** — the crash report and the feedback window write there; a false &quot;quit unexpectedly&quot; on a fresh install is fixed</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.16.0.zip" length="8548078" type="application/octet-stream" sparkle:edSignature="hPg8P7ZMpPEGAvmbvwcSlZsaCSf+jkZuV4Cu9xdXhwVIhBd/8iTS2/iWLYcqc5jcZH7Qoy8URUkL08AiiFaFDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.16.0-0.14.1.delta" sparkle:deltaFrom="0.14.1" length="4571634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="G1dv3sHGBdT9x5ZmyEG/X36uWgJfkFiB1pB4bYqONKF2a9fTm63F+X+Ngv0J1Bn6/3YlYFibQc3litDBEOxoDQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.16.0-0.14.0.delta" sparkle:deltaFrom="0.14.0" length="4570202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W+80Skq+VDhFzXJOGkdu70ARJAKxl8H5eEYw6A3yOmBCU0hVuVLgMcAl5IgpBjMgziM2BGNBJt6TEXvD0M7IAQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.16.0-0.13.0.delta" sparkle:deltaFrom="0.13.0" length="4762650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fQlRshe2/4DoFG3ZWOSQsdXJLyWtneV3OIb5B+GOBCD2marb8jffBFA5yfndQbgnA9C1e6TroQqy8vvH7kbPDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.16.0-0.12.8.delta" sparkle:deltaFrom="0.12.8" length="4796450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oCRWPw20LbnYSDPCIi1O3qcgI7LIEFwwgmSliT4n1VIB8wSqclAXTu4mehcbBublDUNdabKOQZ7ur1CAHypXDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.16.0-0.12.7.delta" sparkle:deltaFrom="0.12.7" length="4823722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QhnheLmgftjNB1O8qVTDXcOd+xkzp8HFop5HBMdb97yl87Uu4D8miiEaMD07/b/Cv1JIDQJq2k4XIJW+6XWRCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.1</title>
             <pubDate>Tue, 08 Sep 2026 00:13:35 +0700</pubDate>
             <sparkle:version>0.14.1</sparkle:version>
@@ -60,35 +91,6 @@
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.14.0-0.12.7.delta" sparkle:deltaFrom="0.12.7" length="2141266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OILReydV6F77DGgJbG9fi907Q/csKlE0GmWtUm9oNHIY1Lh5aBIfSeWJiZiwq5gyf8ynQ6AL78LkqVgCerKABw=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.14.0-0.12.6.delta" sparkle:deltaFrom="0.12.6" length="2150642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2NNE/kxsHCtVdWVYonOojuIm0rFQvBjX8SQVxn1jvbUsfZgcVXyjrjYxCgB4A+R48a26s11SXpXd92PuHHzoCQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.14.0-0.12.5.delta" sparkle:deltaFrom="0.12.5" length="2296050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d5MRVMZDc9+ilpK0OHK1egcjy9waF3xc7ykpbxqJhPO+ShcT25uVYOzWbheffFhXDXTkTmpx8yrTTsl6NR0YDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.13.0</title>
-            <pubDate>Tue, 25 Aug 2026 13:24:32 +0700</pubDate>
-            <sparkle:version>0.13.0</sparkle:version>
-            <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.13.0</h2>
-<ul>
-<li>**New pill type: Dial** — fire it and a small knob appears at your pointer; circle around it to turn the value notch by notch. Presets: Volume, Brightness, Keyboard Light, video Seek (←/→), arrow pairs — or record any two keys for the directions. Volume/brightness/keyboard-light dials show the live level as a number while turning; arrow dials show the arrow being pressed. Hold ⌥ while circling for fine steps. Each dial pill has its own sensitivity slider in its editor. The knob grows while you turn and shrinks when you stop; it starts with a little resistance from standstill (so drifting toward the centre never changes the value), ticks the trackpad on every notch, and closes on any click — which is swallowed, so nothing underneath gets clicked</li>
-<li>**New menu: the Control Deck** — a ring of eight system dials (Volume · Brightness · Keyboard Light · Seek · Track · Zoom · Tabs · Spaces). Open it from the Compass&#x27;s lower diagonal seat (its pill now shows a dial and says Controls), or from the new dial button in the arrange bar. Its pills are yours to edit and arrange like any menu</li>
-<li>Compass: the two invisible diagonal seats (Settings, Controls) are marked with small dots that appear and leave with the menu; the Arrange seat is retired — arrange mode is the right-click on any centre hub</li>
-<li>Arrow-key dials fire into the app the menu was opened over, not whatever app was focused</li>
-<li>Settings side panel: opens over the same blur layer as the menu, and the blur sliders change the frost live while you drag — the Blur slider actually works now; sliders got a small dot that snaps back to the default when you drag near it; **Sound volume** moved from the menu-bar icon into the panel</li>
-<li>Deleting a pill leaves its spot empty — the ring no longer slides everything over</li>
-<li>Wide glyphs (tabs, spaces, play/pause and friends) are no longer shaved at the corners</li>
-<li>Hotkey pills no longer go dead until you click into another app and back — the target window is given the keyboard before every send</li>
-<li>The hub keeps leaning at a folder while it opens instead of snapping upright and back</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette-0.13.0.zip" length="7238634" type="application/octet-stream" sparkle:edSignature="h1CkPje0n1+PyyX6+0G6N1TKjRcE57UfqIF1ogK2ZZ5Xc3tWRwys5Zq+qht57SWLKeFcXvNMHTaw5CjglqFBDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.8.delta" sparkle:deltaFrom="0.12.8" length="1168130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+M6gb8VmlJeeHtAdqOhP+qWLB2g1FlIXT13GWcYE8n49eKEnRiDw8xhP9KaLNngvL5hTWGUMzl3SX+d6CUDnAw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.7.delta" sparkle:deltaFrom="0.12.7" length="1283910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0YTtYeMAbdLzF4CJKPIO4sCuA+8bqSj9T3UA6XpONSixLJLxVkzgR5MSz+/PKo8B4NSPNZPbIguPcZGE86JhAA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.6.delta" sparkle:deltaFrom="0.12.6" length="1298746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fwcPX7uAnrK2gQ/v24NgpKs89YaMSLN/vvIaK2ZV9j1G9ul30PnBEWvfEoriJ6Zv6h+ovvZk1749C0CNy5O2Bg=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.5.delta" sparkle:deltaFrom="0.12.5" length="1543526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FPC+weMZNztUOiyJan+9Qt7BNJSkRXc8YasbXmen/aIHHgqR/Vfihd+mrWyzRtCftpckbRffb+byecgMtwMxCQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.13.0-0.12.4.delta" sparkle:deltaFrom="0.12.4" length="2092658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="R9I6M3P7uizQQ/ma0VY186O6iLEDmR/DyPycWZEvVAcooFBYSpOZG+QzYsRo0Dx1SoU/5/GKo52K8iyLPvE3Dg=="/>
             </sparkle:deltas>
         </item>
     </channel>

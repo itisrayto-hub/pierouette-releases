@@ -7,7 +7,7 @@ A gesture-based radial launcher for macOS. **Private alpha — please don't redi
 - macOS 26 (Tahoe) or newer
 
 ## Install (once)
-1. Download **Pierouette.dmg** from this page and open it.
+1. Download **Rayto.dmg** from this page and open it.
 2. Drag **Pierouette** into **Applications**.
 3. Open Pierouette. macOS will block it ("Apple could not verify…") — that's expected for an alpha:
    open **System Settings → Privacy & Security**, scroll down, click **"Open Anyway"**, confirm with your password.
