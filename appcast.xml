@@ -3,6 +3,26 @@
     <channel>
         <title>Rayto</title>
         <item>
+            <title>0.18.1</title>
+            <pubDate>Thu, 22 Oct 2026 20:14:37 +0200</pubDate>
+            <sparkle:version>0.18.1</sparkle:version>
+            <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.18.1</h2>
+<ul>
+<li>**New installs sound like the designed app** — the menu&#x27;s open, hover, folder and navigation sounds now ship with the app instead of falling back to the built-in defaults</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.18.1.zip" length="10908590" type="application/octet-stream" sparkle:edSignature="tc3NplLOyEayeRsOZiO4J2lLI9RdfZBq53SyXp77hlL3kjJWG1MiIUh2hEW3dNXUOFYixQQ42ArlhfEgx2VLCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.1-0.18.0.delta" sparkle:deltaFrom="0.18.0" length="121482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cM0X1vK/sAF4SlC4vpLCPQ5I2NVTdBo/sURa8YdG3QsegYtwwPIVV5GVj4SgeIBz5IZ4Xt+wVxGTKT9yeQ/2AQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.1-0.17.2.delta" sparkle:deltaFrom="0.17.2" length="6041674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="49+UoprDabEl4r6vT3swZ/mvXtrp44Y97tqmsG+wDy8e4PR9I2QgLHqLTlZjKm1hELBcDRQxcCf27N8SulpbBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.1-0.17.1.delta" sparkle:deltaFrom="0.17.1" length="5665086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+tMPDvvjudHhuEsP1czUo1uPBxxj7LSWL5KQoA9SQ1k5xAuukP7Yt4gtKn2YwwlMr4BBnQjwiLDJ8zFsS25yCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.1-0.17.0.delta" sparkle:deltaFrom="0.17.0" length="5660866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ToumdRJnY662Al2sERQySuMDgGsdHyYcCPSdCcLA3V4VAfeBCEa8p0v4Rpo/Ju7+TbFRRsKB5jqpoaooh2SeCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.18.0</title>
             <pubDate>Thu, 22 Oct 2026 19:48:45 +0200</pubDate>
             <sparkle:version>0.18.0</sparkle:version>
@@ -51,24 +71,6 @@
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.17.2-0.17.1.delta" sparkle:deltaFrom="0.17.1" length="5591310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FPntAov5TbsmohF6KHHIE68I8ywE59+4D42tz0Jc2IQ6c86+de0lSIip1EX4pbowwZnzS4Ff+r6nUcH3AW5lDg=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.17.2-0.17.0.delta" sparkle:deltaFrom="0.17.0" length="5574062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HlrQzo1iB7jJAf7w51S5Z5zuVEMyT4DGAnScr/IC0STfqpYW9OSH9jRJEyJY+oUBwESVQEZSk/MUVX6jy1KIDA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.17.1</title>
-            <pubDate>Tue, 22 Sep 2026 14:30:37 +0700</pubDate>
-            <sparkle:version>0.17.1</sparkle:version>
-            <sparkle:shortVersionString>0.17.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.17.1</h2>
-<ul>
-<li>**A trial cannot be restarted by reinstalling** — the first day is remembered in the Keychain as well</li>
-<li>**Housekeeping** — the app and its update files are named Rayto everywhere</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.17.1.zip" length="8612084" type="application/octet-stream" sparkle:edSignature="zK1rA1g1Y7HdBQeYvtX25RrenZ/44qlJmfFHlKSzjvDMnrv/SLoUY9hu4hdBs7izN9CX0fldyUYTowB4o04HCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.17.1-0.17.0.delta" sparkle:deltaFrom="0.17.0" length="548042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p4tjR+dvCyMbodfyqiGH7NjGhk4DOyf4M54HtjG8FACruM8+4MioORf1mtK3rm8h4iQF0Rht0MfbJ34etIuZBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
