@@ -3,6 +3,35 @@
     <channel>
         <title>Rayto</title>
         <item>
+            <title>0.18.0</title>
+            <pubDate>Thu, 22 Oct 2026 19:48:45 +0200</pubDate>
+            <sparkle:version>0.18.0</sparkle:version>
+            <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.18.0</h2>
+<ul>
+<li>**Design the four menus** — click a menu&#x27;s pill on the Compass to pick its glyph, pill colour and glyph colour; the centre hub and every place that shows the menu follow. &quot;Back to how the app ships&quot; resets it</li>
+<li>**One colour picker everywhere** — presets, your saved colours, a hex field with a live preview, and the macOS colour wheel with its eyedropper</li>
+<li>**Window pills tell the truth** — an app&#x27;s windows are counted from its real window list, closed chats no longer leave a ghost pill, a browser tab&#x27;s pill takes the page&#x27;s title, and the counts update the moment the ring opens</li>
+<li>**Make a menu for this app** — Rayto reads an app&#x27;s commands and builds a menu from the best of them</li>
+<li>**Arrange: the Library column is always the wall** — the ring stays put when you switch menus from the side panel</li>
+<li>**A fast swing back through the centre closes a folder** — it used to stay open if you were quicker than a quarter second</li>
+<li>**The centre hub keeps its ⌥ face while the menu closes** — no flicker back to the plain face</li>
+<li>**Undo countdowns always finish** — quitting a window through the undo ring works even if you open the menu during the countdown</li>
+<li>**W and S turn a floating dial** — like the arrow keys</li>
+<li>**Lifetime licence** — one key, every future version</li>
+<li>**Acknowledgements** — the open-source components and their licences, in the About card</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.18.0.zip" length="10905346" type="application/octet-stream" sparkle:edSignature="ooyj3Kx41eQdbGOz2WGLtSM3qJmZxdWa15H5V6GpYT3JeB73eLlyUhYcLJgvEX+NeL0rJA1AvFJNUKTUzeI+AA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.0-0.17.2.delta" sparkle:deltaFrom="0.17.2" length="6034766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mTV/DET478Rmlj3kv15/8q5t/4exH44YLdkX7lIQKETX2p+UGBIFclzJgSsjbZPdV3Mh4pSbFiiMF7YfdssbBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.0-0.17.1.delta" sparkle:deltaFrom="0.17.1" length="5674646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yoQgakfqtsO1AbHnrAY0WCe0xH0bz1da7TL08fElPuWiWkJ0Ym3gWhJPUt/ujLArR9ht3sTuR0v5e9/k5fi4Cg=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.0-0.17.0.delta" sparkle:deltaFrom="0.17.0" length="5658090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2N2coe3q8m/cuAJYEUDHP0vK/OBgdvWRvMf7XaoESavw4dczbSvljOjCLs0xmFLYwmFAWcY4CXmjwctNO6PqBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.17.2</title>
             <pubDate>Thu, 08 Oct 2026 16:15:04 +0700</pubDate>
             <sparkle:version>0.17.2</sparkle:version>
@@ -40,30 +69,6 @@
             <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.17.1.zip" length="8612084" type="application/octet-stream" sparkle:edSignature="zK1rA1g1Y7HdBQeYvtX25RrenZ/44qlJmfFHlKSzjvDMnrv/SLoUY9hu4hdBs7izN9CX0fldyUYTowB4o04HCQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.17.1-0.17.0.delta" sparkle:deltaFrom="0.17.0" length="548042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p4tjR+dvCyMbodfyqiGH7NjGhk4DOyf4M54HtjG8FACruM8+4MioORf1mtK3rm8h4iQF0Rht0MfbJ34etIuZBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.17.0</title>
-            <pubDate>Tue, 22 Sep 2026 14:17:45 +0700</pubDate>
-            <sparkle:version>0.17.0</sparkle:version>
-            <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.17.0</h2>
-<ul>
-<li>**Licence keys** — Settings › About › Licence › Manage…: click the box to paste your key. Keys are checked on your Mac, no account, no internet needed. Get one at rayto.app or from Ray</li>
-<li>**Alpha builds expire** — an alpha stops 60 days after it was built and asks you to update; the latest version keeps everything you set up</li>
-<li>**One permission flow** — Rayto explains Accessibility first, then macOS asks; the two no longer appear at the same time</li>
-<li>**Reinstall no longer reports a crash** — the false &quot;quit unexpectedly&quot; box after reinstalling is gone</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.17.0.zip" length="8614033" type="application/octet-stream" sparkle:edSignature="SeaMK5/vwLBXS0ygYXz964Ty+rz5ZNrKDZzb+8JsUgNy3qgAc1utC0hA+i+PThkLk7G4AQ8rxFWNrq8Hp1ZUDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.17.0-0.16.0.delta" sparkle:deltaFrom="0.16.0" length="996450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pJ6adq4vIhYuUbIYjFxjTqAwcXLlkzm78NC3ipBFjMwaRJIwTeEYN/o/JXs2ty67rqviuMCi0x+OIS7k2glpCg=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.17.0-0.14.1.delta" sparkle:deltaFrom="0.14.1" length="4623230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H1RzjApLWynw/yh8kUiQpe2/DT8SMyT40MNGVBFGAegDV+F53WazI8XoVR77i4KeRqTmZyiSpm9wSwfKGZWyCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.17.0-0.14.0.delta" sparkle:deltaFrom="0.14.0" length="4629258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ORpXPzebogZtWA5AU1KxZrbAF949ZGrbVpQTtLdOAmyVyrCH50Ad8ZnIG+SeoGcqgTuipPwJI8cRPqCsaFR8Aw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.17.0-0.13.0.delta" sparkle:deltaFrom="0.13.0" length="4824214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OD4yyBVNmClH6MJIWL/6XvWaYlZwfTRNnrHQUoxkAGN8ZkQzjkZ+KwxjjQSHJGlvp7DetSXj9JvaNMMHwr6vAQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Pierouette0.17.0-0.12.8.delta" sparkle:deltaFrom="0.12.8" length="4855254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977712" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/Hz0ny/9cd5e5K5aeeut35CCkT0iwDoidB+Zo7OfB42MZaV5jcMLE0WQAwk7PGCHNa1DWWtwA75sZlecsqUvAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
