@@ -3,6 +3,65 @@
     <channel>
         <title>Rayto</title>
         <item>
+            <title>0.18.21</title>
+            <pubDate>Tue, 10 Nov 2026 01:57:54 +0100</pubDate>
+            <sparkle:version>0.18.21</sparkle:version>
+            <sparkle:shortVersionString>0.18.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.18.21</h2>
+<ul>
+<li><strong>Menus open smoothly right after Rayto starts</strong> — the first opens after a launch no longer stutter. Rayto&#x27;s background preparation now works at every launch and stays out of the way while you use the menu.</li>
+<li><strong>A file pill can show a Quick Look preview</strong> — in the pill editor, a File or Folder pill has a new option &quot;Opens in&quot;: Finder, Quick Look, or Default app. Quick Look shows the file like the Space bar does in Finder, on the screen where you chose the pill. Close it with Space or Escape. Handy for a cheat sheet.</li>
+<li><strong>Click the centre of an open folder to close the whole menu</strong> — one click instead of two. To go back to the main menu, move back toward its centre or press Escape.</li>
+<li>When a folder opens, the main pills now blur and dim smoothly instead of all at once.</li>
+<li>A pill&#x27;s shape and its icon now blur together as one object when a folder opens.</li>
+<li>Tinted pills inside a folder no longer show a thin dark rim when the black strand connects to them.</li>
+<li>A swipe shot that ends on a folder now opens it, instead of leaving you on the main ring.</li>
+<li>After a swipe shot into a folder, letting go of the key keeps the folder open, so pressing the key again reaches its alternatives.</li>
+<li>The centre hub keeps its tilt when you slide out into a folder, instead of snapping flat for a moment.</li>
+<li>The black strand from the centre now joins a folder with the same smooth curve while the folder moves as when it rests.</li>
+<li>The black shapes behind the pills now keep up with the pills more often while a menu moves.</li>
+<li>An opening or closing folder pill no longer swells for a moment, and its icon stays exactly inside it while it moves.</li>
+<li>A folder&#x27;s pills no longer melt into each other while it opens or closes, and each black pill now moves exactly with its icon.</li>
+<li>Rayto keeps each pill picture once instead of twice, so it uses much less memory and opens faster on a busy Mac.</li>
+<li>Pressing another key while a swipe shot&#x27;s pill waits for the release (a shortcut like ⌘ Command+C) now cancels it, so a shortcut typed while the pointer moves no longer fires a pill.</li>
+<li><strong>Swipe shot into the Compass</strong> — hold the Compass key and swipe toward a menu: that menu opens, with its blur. Let go right away and it stays; keep holding and let go, and it closes.</li>
+<li><strong>A swipe shot into a folder works like a held shortcut</strong> — let go right after the folder opens and the menu stays; keep holding and let go, and it closes. If you closed the folder again first, the menu stays.</li>
+<li><strong>Pasted and typed text reads left to right in the pill editor</strong> — the text box under Actions was right-aligned.</li>
+<li><strong>The hub shows the right app after switching menus in Arrange</strong> — picking another app in the menu list now changes the hub&#x27;s icon too.</li>
+<li><strong>No more folder mode in Arrange</strong> — hold a pill on the edge of another pill for a moment to make a folder; drop it on the centre to trade places. A pill dropped on the edge of a folder goes inside, and holding it there opens the folder.</li>
+<li><strong>Smoother hover with the pointer trail on</strong> — the comet is drawn as a plain layer now instead of a SwiftUI canvas that waited on the window server every frame.</li>
+<li><strong>A swipe shot into a folder is one sound again</strong> — the brief hover over the folder pill no longer rings a second click as the folder opens.</li>
+<li><strong>A swipe shot straight into a folder no longer re-opens the menu over it</strong> — a very fast swipe used to get a second bloom and a second open sound 0.2 s later.</li>
+<li><strong>A folder open never waits for a blur again</strong> — the blurred back-ring pictures are drawn in the background the first time; the sharp picture shows for a moment and crossfades.</li>
+<li><strong>Folder opens are lighter</strong> — the black back-ring shapes were blurred afresh on every folder open; they are kept now.</li>
+<li><strong>Folder opens no longer stutter after a different kind of open</strong> — the blurred back-ring pictures are kept in every variant instead of being redrawn each time the menu changed how it was opened.</li>
+<li><strong>The first folder after a launch opens without a leftover black shape</strong> — Rayto now rehearses a folder open at launch too, so the screen has met a folder before your first one.</li>
+<li><strong>After a swipe shot&#x27;s folder closes, pills commit by crossing again</strong> — a pill your hand merely reached no longer fires on touch.</li>
+<li><strong>Rayto asks to send a report after every crash</strong>, not once a day.</li>
+<li><strong>A problem report carries the newest crash record again</strong> — since the app&#x27;s rename the report looked for files under the old name and attached none.</li>
+<li><strong>Opens stay smooth all day</strong> — the menu&#x27;s empty seats used to be rebuilt as new pictures on every open, which crowded the real pill faces out of the picture cache and made later opens stutter. A seat is now the same seat on every open.</li>
+<li><strong>The first folder after a launch opens as smoothly as the rest</strong> — the blur behind an open folder used to be set up on that first open, a short freeze; it is prepared when Rayto starts.</li>
+<li><strong>Deleting a pill while its ⌥ Option reveal is out no longer crashes</strong> — the reveal now looks the pill up by name in the list it sees, instead of by a number that the delete had just made wrong.</li>
+<li><strong>The menu stays after a swipe shot into a folder</strong> — close the folder, let the key go, and the menu is still there to use or close yourself.</li>
+<li><strong>A swipe shot into a folder keeps the main faces</strong> — holding the key through a swipe into a folder and back no longer flips the menu to its ⌥ Option layer; a new press of the key does.</li>
+<li><strong>The menu settles without a twitch</strong> — pills on the diagonals bounced a pixel as the ring came to rest; every pill now glides exactly onto its seat and sits still.</li>
+<li><strong>The Compass shows every menu</strong> — the Context and Window menus without an app under the pointer are faded, as before, instead of all but gone.</li>
+<li><strong>Links from the Library open in a new window too</strong> — a website pill taken from the Library, a captured link, and the starter&#x27;s links all carry the new-window default.</li>
+<li><strong>Real keys in every film</strong> — the keys in Setup&#x27;s films and the gesture films are small isometric keycaps that drop when pressed, so the timing of a tap or a hold reads at a glance.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.18.21.zip" length="11953056" type="application/octet-stream" sparkle:edSignature="Q8o8i30ioKTb6EYVojOPTyvOsjEJif2d0/XrxVTQ0hURiD2vnWoJpbKW2qH3gzXeuWtnKJKy95ZKoVa9IKGwCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.21-0.18.20.delta" sparkle:deltaFrom="0.18.20" length="2343690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5k/F9+KYP2QCdtdlNYpi21uKQMij5bvfoF5fGnPzf6hU+Ia5HK8aOo7oy03EggMKCrOFEBP4urgJFGUU65BBCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.21-0.18.19.delta" sparkle:deltaFrom="0.18.19" length="2533746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PUMKlD/yRDwobdftf5/CBrSD9CYS+e7IXv/vdk2cZEOUTO7z//dmd4vbMREhQzCQSooxlrNXC3fyhDTu89HwBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.21-0.18.18.delta" sparkle:deltaFrom="0.18.18" length="2522738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TtyxJ7PQHl8zvunVjKHN+5W50XbrTmffnJ2xVg7TckVDG7upuL+u6a4AAV5d8O0zErdmwR85tZqrHqad3169BQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.21-0.18.17.delta" sparkle:deltaFrom="0.18.17" length="2730242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RFX2zsigYOKO6ubTAL/8/ScX4MHqqyQUjc4xJqVYsrNemb5EVfOGQRLn1U3HIsMJRtOI2zejXd7nPbSo8nK0CA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.21-0.18.16.delta" sparkle:deltaFrom="0.18.16" length="2729098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ObmMYFb67IBsguXowWDbhqhg3zx62sOpY/7LawSxP2UJ4JN3g+KF4iI8PuPZnXRQVBLK8jg5P98VOjkFHQt0Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.18.20</title>
             <pubDate>Tue, 03 Nov 2026 17:08:19 +0100</pubDate>
             <sparkle:version>0.18.20</sparkle:version>
@@ -50,31 +109,6 @@
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.19-0.18.16.delta" sparkle:deltaFrom="0.18.16" length="1831810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2x7DSxVln8ZPpRPawjp6GqrJGAHaNysUWwMTrk6uEncLKN+S940eXqsjrWY6OrMdnQDTFuBj7r4eobND25enAA=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.19-0.18.15.delta" sparkle:deltaFrom="0.18.15" length="2399882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/olPuBKptWIvS3nD0Q+CdhozLe1qn1j67puI974vN8/vk+rGQlUu4uryE2zmZXkytHW8ss8fa8GOfJm2L7zWCw=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.19-0.18.14.delta" sparkle:deltaFrom="0.18.14" length="2658418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XsSSIznhZS2o578nv0H9tc3AiTrN08F4+77vXHNE7Lzs7q0feIgxGdDLQbCdhkKGabovtMrLWr8WTEYOrYQCBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.18.18</title>
-            <pubDate>Mon, 02 Nov 2026 22:34:55 +0100</pubDate>
-            <sparkle:version>0.18.18</sparkle:version>
-            <sparkle:shortVersionString>0.18.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.18.18</h2>
-<ul>
-<li>**Swipe shot: the confirmation stops at the furthest point** — it follows your hand only while you move further from the menu; the moment you come back it stays where it was.</li>
-<li>**A swipe into a folder shows the menu at once** — the blur and the menu appear together and complete, with no pills growing in.</li>
-<li>**Smoother opens** — a slow first frame no longer makes the pills jump outward.</li>
-<li>**First-use tips** — a tip is now a title and one short line, with a Show me button that opens its tour; the tips come at your 3rd, 10th, 20th and 30th open, and the alternates tip says to hold the menu&#x27;s own key again.</li>
-<li>**No desktop switch** — clicking the menu bar icon, the Shortcut Map, Parts or Report a Bug no longer moves you to another desktop.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.18.18.zip" length="11797533" type="application/octet-stream" sparkle:edSignature="cFhGv2862TweiQw4c5LtcNd2UQ8vZU9V72DFVr4fB/MMP+a58/zn1DkQ1pk97LOBb1YXyt0g//jOm30dEHxFDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.18-0.18.17.delta" sparkle:deltaFrom="0.18.17" length="1791926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3b6wXqkZYnbmotyKAj+PnaQhHkk1DxgjSrOdbOcvo4jV7+zQmUczWFM5z9duz8IVFj+P95yx+qbZSSJDHC+7DA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.18-0.18.16.delta" sparkle:deltaFrom="0.18.16" length="1822086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9TjkYPKi3moIC/8D2Sxz4Cxu6hZcRwa3I//kbHxhzauTf53zNmU+MVzdwLXI6ovDrDFTKPGfMgpNHpIdBT6kCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.18-0.18.15.delta" sparkle:deltaFrom="0.18.15" length="2389426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uBVzWjpqBR+nYr/K0fL5e1Y45xomho46UhFf32EVFEV0XVk5KpUZZI1igtjh5jY64TZPtawewmMFIngt3VSmAA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.18-0.18.14.delta" sparkle:deltaFrom="0.18.14" length="2657018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+HsBGAZQfV3f39+f+A7vznmZjRV2Pfhm/LKfK3gX6KfNb2Wlh7QOvCWJrKXsA0msyH+WcMdWMav88OkfsRvbAw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.18-0.18.13.delta" sparkle:deltaFrom="0.18.13" length="2992938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GR3wlpXWWtKx06+FKlqJs2hpRqbggU5KCgz9XBZ2m7VdVOe3Q8+1wq6+zab3aV7uShwR9o5DqC6c5dqDMpelBw=="/>
             </sparkle:deltas>
         </item>
     </channel>

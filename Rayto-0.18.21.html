@@ -1,0 +1,42 @@
+<h2>What's new in 0.18.21</h2>
+<ul>
+<li><strong>Menus open smoothly right after Rayto starts</strong> — the first opens after a launch no longer stutter. Rayto&#x27;s background preparation now works at every launch and stays out of the way while you use the menu.</li>
+<li><strong>A file pill can show a Quick Look preview</strong> — in the pill editor, a File or Folder pill has a new option &quot;Opens in&quot;: Finder, Quick Look, or Default app. Quick Look shows the file like the Space bar does in Finder, on the screen where you chose the pill. Close it with Space or Escape. Handy for a cheat sheet.</li>
+<li><strong>Click the centre of an open folder to close the whole menu</strong> — one click instead of two. To go back to the main menu, move back toward its centre or press Escape.</li>
+<li>When a folder opens, the main pills now blur and dim smoothly instead of all at once.</li>
+<li>A pill&#x27;s shape and its icon now blur together as one object when a folder opens.</li>
+<li>Tinted pills inside a folder no longer show a thin dark rim when the black strand connects to them.</li>
+<li>A swipe shot that ends on a folder now opens it, instead of leaving you on the main ring.</li>
+<li>After a swipe shot into a folder, letting go of the key keeps the folder open, so pressing the key again reaches its alternatives.</li>
+<li>The centre hub keeps its tilt when you slide out into a folder, instead of snapping flat for a moment.</li>
+<li>The black strand from the centre now joins a folder with the same smooth curve while the folder moves as when it rests.</li>
+<li>The black shapes behind the pills now keep up with the pills more often while a menu moves.</li>
+<li>An opening or closing folder pill no longer swells for a moment, and its icon stays exactly inside it while it moves.</li>
+<li>A folder&#x27;s pills no longer melt into each other while it opens or closes, and each black pill now moves exactly with its icon.</li>
+<li>Rayto keeps each pill picture once instead of twice, so it uses much less memory and opens faster on a busy Mac.</li>
+<li>Pressing another key while a swipe shot&#x27;s pill waits for the release (a shortcut like ⌘ Command+C) now cancels it, so a shortcut typed while the pointer moves no longer fires a pill.</li>
+<li><strong>Swipe shot into the Compass</strong> — hold the Compass key and swipe toward a menu: that menu opens, with its blur. Let go right away and it stays; keep holding and let go, and it closes.</li>
+<li><strong>A swipe shot into a folder works like a held shortcut</strong> — let go right after the folder opens and the menu stays; keep holding and let go, and it closes. If you closed the folder again first, the menu stays.</li>
+<li><strong>Pasted and typed text reads left to right in the pill editor</strong> — the text box under Actions was right-aligned.</li>
+<li><strong>The hub shows the right app after switching menus in Arrange</strong> — picking another app in the menu list now changes the hub&#x27;s icon too.</li>
+<li><strong>No more folder mode in Arrange</strong> — hold a pill on the edge of another pill for a moment to make a folder; drop it on the centre to trade places. A pill dropped on the edge of a folder goes inside, and holding it there opens the folder.</li>
+<li><strong>Smoother hover with the pointer trail on</strong> — the comet is drawn as a plain layer now instead of a SwiftUI canvas that waited on the window server every frame.</li>
+<li><strong>A swipe shot into a folder is one sound again</strong> — the brief hover over the folder pill no longer rings a second click as the folder opens.</li>
+<li><strong>A swipe shot straight into a folder no longer re-opens the menu over it</strong> — a very fast swipe used to get a second bloom and a second open sound 0.2 s later.</li>
+<li><strong>A folder open never waits for a blur again</strong> — the blurred back-ring pictures are drawn in the background the first time; the sharp picture shows for a moment and crossfades.</li>
+<li><strong>Folder opens are lighter</strong> — the black back-ring shapes were blurred afresh on every folder open; they are kept now.</li>
+<li><strong>Folder opens no longer stutter after a different kind of open</strong> — the blurred back-ring pictures are kept in every variant instead of being redrawn each time the menu changed how it was opened.</li>
+<li><strong>The first folder after a launch opens without a leftover black shape</strong> — Rayto now rehearses a folder open at launch too, so the screen has met a folder before your first one.</li>
+<li><strong>After a swipe shot&#x27;s folder closes, pills commit by crossing again</strong> — a pill your hand merely reached no longer fires on touch.</li>
+<li><strong>Rayto asks to send a report after every crash</strong>, not once a day.</li>
+<li><strong>A problem report carries the newest crash record again</strong> — since the app&#x27;s rename the report looked for files under the old name and attached none.</li>
+<li><strong>Opens stay smooth all day</strong> — the menu&#x27;s empty seats used to be rebuilt as new pictures on every open, which crowded the real pill faces out of the picture cache and made later opens stutter. A seat is now the same seat on every open.</li>
+<li><strong>The first folder after a launch opens as smoothly as the rest</strong> — the blur behind an open folder used to be set up on that first open, a short freeze; it is prepared when Rayto starts.</li>
+<li><strong>Deleting a pill while its ⌥ Option reveal is out no longer crashes</strong> — the reveal now looks the pill up by name in the list it sees, instead of by a number that the delete had just made wrong.</li>
+<li><strong>The menu stays after a swipe shot into a folder</strong> — close the folder, let the key go, and the menu is still there to use or close yourself.</li>
+<li><strong>A swipe shot into a folder keeps the main faces</strong> — holding the key through a swipe into a folder and back no longer flips the menu to its ⌥ Option layer; a new press of the key does.</li>
+<li><strong>The menu settles without a twitch</strong> — pills on the diagonals bounced a pixel as the ring came to rest; every pill now glides exactly onto its seat and sits still.</li>
+<li><strong>The Compass shows every menu</strong> — the Context and Window menus without an app under the pointer are faded, as before, instead of all but gone.</li>
+<li><strong>Links from the Library open in a new window too</strong> — a website pill taken from the Library, a captured link, and the starter&#x27;s links all carry the new-window default.</li>
+<li><strong>Real keys in every film</strong> — the keys in Setup&#x27;s films and the gesture films are small isometric keycaps that drop when pressed, so the timing of a tap or a hold reads at a glance.</li>
+</ul>
