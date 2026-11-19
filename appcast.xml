@@ -3,6 +3,27 @@
     <channel>
         <title>Rayto</title>
         <item>
+            <title>0.18.25</title>
+            <pubDate>Thu, 19 Nov 2026 18:29:13 +0100</pubDate>
+            <sparkle:version>0.18.25</sparkle:version>
+            <sparkle:shortVersionString>0.18.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.18.25</h2>
+<ul>
+<li><strong>Menus open close to the screen edge</strong> — near an edge a menu now opens under the pointer. It moves in only when a folder or a pill points at the edge.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.18.25.zip" length="12290990" type="application/octet-stream" sparkle:edSignature="/6yPyVUq/8388N5IGT6ehzy2vIuKz3LOEmUOR2oVYTEiaT4z7j1+H4qleXfKOwH9c7dDtPGhPLda16lp8DTQBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.24.delta" sparkle:deltaFrom="0.18.24" length="609346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LA2RB5AMHX5qskMm71OcBj4eFRejy5O/28GzPXcWFALOspy30Nw6L5g5AeexYKEoYWV551DTmZWZeisFyRlgDQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.23.delta" sparkle:deltaFrom="0.18.23" length="739938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xe/m8PubqsPmDHR8BJ2Lgdt6Vc1JIYFCY37xFav6extqOnLEeru5aqJVv7QD47NsKAlgtaooRLyQRB9ax/DECA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.22.delta" sparkle:deltaFrom="0.18.22" length="5414234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PH4dU9wOaMG6P2Tb0AL17acSiEL9C3mRF0tKs9z1tYg8O3Ns73SMv60D/WQgl8OTMv0f8clKD75jU2Jh1uF4Cg=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.21.delta" sparkle:deltaFrom="0.18.21" length="5470194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lM47wTPQaFlyJlsNz9te6HRFoRDlSn4JteRq6BjqX4hRPajkFx/R8tPKu15GGmBwnGMFbHPM6dVUv/ofwKhYCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.20.delta" sparkle:deltaFrom="0.18.20" length="5618862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QwjKG7/m7z4zAfr2JxgWvIzl9RXNn9VOwsrw8AghgxglMFp2nbVzU87PYmYcA5kFeRKdjcgDsfZzlP8v0FFnCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.18.24</title>
             <pubDate>Thu, 19 Nov 2026 17:28:39 +0100</pubDate>
             <sparkle:version>0.18.24</sparkle:version>
@@ -69,33 +90,6 @@
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.23-0.18.20.delta" sparkle:deltaFrom="0.18.20" length="5629474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U+1gcUpenfzykPgxunkkX4qxQBJghxVCEuLJl74zTJbb5P6dkQbxaIchmQdVaI1lz2Owg7TCXZ/XDOLjy5oZBw=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.23-0.18.19.delta" sparkle:deltaFrom="0.18.19" length="5615994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CbFHnaWPKhqUTy0350VdnPW3/XYtlPilAVXxv+MAWBTt/PV8N7VcNAtDsQaZytZN2WUNLUKzqH4r9+3xaRyWAQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.23-0.18.18.delta" sparkle:deltaFrom="0.18.18" length="5660746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NwzJDiW91o73pQ4eaX+yZKF0noTuVs7XOlBlbKcBbRGL5yRSGZJOhi2Ysrcep8iH3pgP83y8lo4qc0smsJdeAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.18.22</title>
-            <pubDate>Wed, 11 Nov 2026 17:24:59 +0100</pubDate>
-            <sparkle:version>0.18.22</sparkle:version>
-            <sparkle:shortVersionString>0.18.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.18.22</h2>
-<ul>
-<li><strong>Swipe shot while another menu is open</strong> — with a menu open, hold another menu&#x27;s key and swipe toward a pill. The open menu closes and that pill fires, with one sound.</li>
-<li><strong>A new confirmation when a pill fires</strong> — the pill stretches like a rubber band and snaps back, lights up for a moment, leans the way you swiped, then pops like a bubble. Its border is softer and starts moving the moment the pill fires.</li>
-<li><strong>A pill fired from an open menu stays in its place</strong> — it no longer jumps outward first. A swipe shot still carries its pill out, as before.</li>
-<li>A fired pill keeps the same rounded shape as every other pill, and its border follows that shape.</li>
-<li>A pill you were pointing at no longer shrinks for a moment before it fires.</li>
-<li><strong>A file&#x27;s preview closes cleanly</strong> — closing the preview of a file pill with ✕ no longer flashes. It now closes at once, the way the Space bar closes it.</li>
-<li><strong>No more black shapes left behind</strong> — when the Mac is busy, the pills&#x27; black shapes no longer stay on screen for a moment after a pill fires or the menu closes. A pill&#x27;s shape now always moves and leaves together with its icon.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.18.22.zip" length="12008483" type="application/octet-stream" sparkle:edSignature="O1JwslK9+MiHHyU2LxDJdxbvp9ZBF4K3xtsB/sH56/21J/iv3csAS6GyPiO/WW9gnDIotK3ezjWLHbhiRDoiDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.22-0.18.21.delta" sparkle:deltaFrom="0.18.21" length="1672618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3sX5pKK3J38mjpojuCsXxb7wxELDLN5cMhqSxb9OB70euC1ukqs6f9hQhfS3z2euS6BF5uZFRWfgG5YvCkiKCQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.22-0.18.20.delta" sparkle:deltaFrom="0.18.20" length="2509582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wUMVTAxurh3l3NejwtSRkaF/u9+7/i1cCMcCNu8/5QcaT7Z+1idP3duE0TdTiGP/grlbHARZWrf4/hMLEE9mBA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.22-0.18.19.delta" sparkle:deltaFrom="0.18.19" length="2666418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Fan+D5KKa7OzQ04ijjo5nukp0wztTdR/V0faITW7JNvA5likLcLyfPYK7yBx3E0lJOV3d5nvK0zUt/fegr6qCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.22-0.18.18.delta" sparkle:deltaFrom="0.18.18" length="2677354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yA8vuPelg82b3ZOzQ+Bdut7GQaS9NLyhAqL0VQ1ShWowB6MP1Zt75I7KZ3n8OyM7J/FrZiNYVUHP1S0dotVKBg=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.22-0.18.17.delta" sparkle:deltaFrom="0.18.17" length="2863870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JTNvBS6oeHezzvNrqHsEcbep/rIfxKIVoSFBUjfXID/zoune2uO/3jVF3t3m2N/6xkIAM92aZ7VtMyii9NxYDQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
