@@ -3,6 +3,29 @@
     <channel>
         <title>Rayto</title>
         <item>
+            <title>0.18.28</title>
+            <pubDate>Mon, 23 Nov 2026 12:16:45 +0100</pubDate>
+            <sparkle:version>0.18.28</sparkle:version>
+            <sparkle:shortVersionString>0.18.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>What's new in 0.18.28</h2>
+<ul>
+<li><strong>App volume explains itself</strong> — rest the pointer on an App volume dial and a short card says what it does: it turns the volume of the app under the pointer. The card shows three times at most and stops once you turned the dial.</li>
+<li><strong>New installs</strong> — the starter menu has an App volume dial beside Volume.</li>
+<li><strong>A blocked App volume dial says so</strong> — when macOS has not allowed Rayto to change an app&#x27;s volume, the dial shows a red crossed speaker and does not turn. A card with <strong>Open Settings</strong> takes you to the switch. An app no longer goes silent without a word.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.18.28.zip" length="12405570" type="application/octet-stream" sparkle:edSignature="1BuTnOfYPDejE2p4zkM/xJDfeICRjl2fKj6A5U22FIKjUGCSv1z6UqNjjfW8V/3kLEseGK3iGAevSti1tjvqCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.28-0.18.27.delta" sparkle:deltaFrom="0.18.27" length="2164766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0NjswiIBbz/ic1LnZ/2Kn4L3yxuc6DmaTBBsp73bZBSxR/4lJDwDvI+E/vkGS7qoNzFXOGUzHs928if8IGebCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.28-0.18.26.delta" sparkle:deltaFrom="0.18.26" length="2237002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L2OgjcperDMfljkoQVJLW2A7yCTUs/rtVQkEfahNkE2ceyulkxFonZz/CenbnyV6GpvjDRWOuaorg4jJWAy9Aw=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.28-0.18.25.delta" sparkle:deltaFrom="0.18.25" length="2291294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VtMhTfFeTPzhza1ua8+Vt5Hx5rWaM32D5X52Aqram8dJuTJNwhxnZZRg3a0+0b8RKlN/ncsO8AGnZ7KHTGiKAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.28-0.18.24.delta" sparkle:deltaFrom="0.18.24" length="2317350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1rmMol1l7QPEc+kDiFr1rSxCqtAUH6wm5mcQyxU7x41kwryiOc6BxH63DXiFBq/+R/YGccjNkJsiBPp1kEOlBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.28-0.18.23.delta" sparkle:deltaFrom="0.18.23" length="2287454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YpnOQ1AB9/JUxjgQsAK7LlxxSjN68LgAUC179hV4i0r7D+kTCVs0ZsAzbMJegoKMw2NFXlu22FWMFFaty9GKDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.18.27</title>
             <pubDate>Thu, 19 Nov 2026 22:34:13 +0100</pubDate>
             <sparkle:version>0.18.27</sparkle:version>
@@ -42,27 +65,6 @@
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.26-0.18.23.delta" sparkle:deltaFrom="0.18.23" length="1121534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ub3vtGJ8KihQ8wnMum63JYijKYVyZ6wFUai/A9S34GBn2AS8tblxGsSCUwoOWBpEpg048NKsInQTXwnWlZAGDg=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.26-0.18.22.delta" sparkle:deltaFrom="0.18.22" length="5390474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o4CijrhUnXNL/kFlDJ4SOryJimZox+GJ6PpCVgds7+IjqKDXXqoe/p5MqQ0Dbgf3P6YLGb77UzcnvZ0MacV2Bg=="/>
                 <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.26-0.18.21.delta" sparkle:deltaFrom="0.18.21" length="5445690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iUeTAWW1q2Ar0ct50ct1GzCuWSDBEz8+XpBOPeUZSzB4gcFZuq6uAGuZl9GM6zkwf4oZnkbxB3YD0soikp6lAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.18.25</title>
-            <pubDate>Thu, 19 Nov 2026 18:29:13 +0100</pubDate>
-            <sparkle:version>0.18.25</sparkle:version>
-            <sparkle:shortVersionString>0.18.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>What's new in 0.18.25</h2>
-<ul>
-<li><strong>Menus open close to the screen edge</strong> — near an edge a menu now opens under the pointer. It moves in only when a folder or a pill points at the edge.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto-0.18.25.zip" length="12290990" type="application/octet-stream" sparkle:edSignature="/6yPyVUq/8388N5IGT6ehzy2vIuKz3LOEmUOR2oVYTEiaT4z7j1+H4qleXfKOwH9c7dDtPGhPLda16lp8DTQBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.24.delta" sparkle:deltaFrom="0.18.24" length="609346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LA2RB5AMHX5qskMm71OcBj4eFRejy5O/28GzPXcWFALOspy30Nw6L5g5AeexYKEoYWV551DTmZWZeisFyRlgDQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.23.delta" sparkle:deltaFrom="0.18.23" length="739938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xe/m8PubqsPmDHR8BJ2Lgdt6Vc1JIYFCY37xFav6extqOnLEeru5aqJVv7QD47NsKAlgtaooRLyQRB9ax/DECA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.22.delta" sparkle:deltaFrom="0.18.22" length="5414234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PH4dU9wOaMG6P2Tb0AL17acSiEL9C3mRF0tKs9z1tYg8O3Ns73SMv60D/WQgl8OTMv0f8clKD75jU2Jh1uF4Cg=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.21.delta" sparkle:deltaFrom="0.18.21" length="5470194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lM47wTPQaFlyJlsNz9te6HRFoRDlSn4JteRq6BjqX4hRPajkFx/R8tPKu15GGmBwnGMFbHPM6dVUv/ofwKhYCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/Rayto0.18.25-0.18.20.delta" sparkle:deltaFrom="0.18.20" length="5618862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QwjKG7/m7z4zAfr2JxgWvIzl9RXNn9VOwsrw8AghgxglMFp2nbVzU87PYmYcA5kFeRKdjcgDsfZzlP8v0FFnCQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
