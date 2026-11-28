@@ -1,13 +1,13 @@
 # Rayto — Alpha
 
-A gesture-based radial launcher for macOS. **Private alpha — please don't redistribute.**
+A gesture-based radial launcher for macOS. **Free beta.**
 
 ## Requirements
 - Apple Silicon Mac (M1 or newer)
 - macOS 26 (Tahoe) or newer
 
 ## Install (once)
-1. Download **Rayto.dmg** from this page and open it.
+1. Download [**Rayto.dmg**](https://raw.githubusercontent.com/itisrayto-hub/pierouette-releases/main/install/Rayto.dmg) and open it.
 2. Drag **Rayto** onto **Applications**, then open it from there (it is signed and notarized — no warnings).
 3. Grant **Accessibility** when asked (macOS 27 calls it "Device Control and Data Access") — Rayto needs it to see your gestures and press keys for you. Nothing else is read.
 
@@ -20,6 +20,7 @@ The app updates itself — when a new version is published you'll get an "Update
 
 ## If something goes wrong
 - **Input feels stuck/weird:** quit Rayto (⌘⌥Esc → Force Quit → Rayto). Everything returns to normal immediately.
-- **It crashed:** on the next launch it offers "Send Report…" — that opens an email draft to hello@rayto.app with a diagnostic file attached. You see everything before it's sent. There is no hidden telemetry.
+- **It crashed:** on the next launch it offers "Send Report…" — that opens an email draft to hello@rayto.app with a diagnostic file attached. You see everything before it's sent.
+- **Usage counts:** once a day Rayto sends a few anonymous counts about how it is used (menu opens, which key, which features, the versions of Rayto and macOS) — never pill names, apps, websites or text. Switch it off in Settings › App › **Share anonymous usage counts**; that also deletes what was counted.
 - **Feedback:** hello@rayto.app
 - **Uninstall:** drag Rayto from Applications to the Trash and delete the folder `~/.config/pierouette-alpha`. Nothing else is touched.
